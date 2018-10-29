@@ -1,2 +1,6 @@
-# check-smtp-auth
-Check SMTP-AUTH script
+# SMTP-AUTHの確認スクリプト
+
+メールサーバーの構築やメンテナンスを担当していると「念の為、SMTP-AUTHが効いているか確認しときたい。」って事があります。  
+しかし、over SSL/TLSな環境では結構確認が大変。  
+
+ところが Pythonのsmtplibライブラリを使うと簡単にチェックできちゃいました。
